@@ -4,7 +4,7 @@ from serversocket import serversocket
 from clientthread import clientthread
 from SmartChatConfig import smart_chat_config
 import logging
-
+import numpy
 
 class Server(object):
     def __init__(self):
