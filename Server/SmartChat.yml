@@ -2,3 +2,9 @@
 server_ip: ''
 port: 12345
 version: '1.0'
+db_connection_string: "DRIVER={ODBC Driver 17 for SQL Server};\
+    SERVER=BALROG;\
+    DATABASE=SmartChat;\
+    UID=sa;\
+    PWD=Technobase2021;\
+    Trusted_Connection=no;"

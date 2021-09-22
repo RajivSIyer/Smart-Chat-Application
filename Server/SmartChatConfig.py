@@ -5,6 +5,7 @@ class smart_chat_config(object):
         self.server_ip = ''
         self.port = 12345
         self.version = 1.0
+        self.db_connection_string = None
         try:
             stream = open('SmartChat.yml', 'r')
             config_dict = yaml.load(stream)
@@ -15,6 +16,7 @@ class smart_chat_config(object):
             self.server_ip = config_dict['server_ip']
             self.port = config_dict['port']
             self.version = config_dict['version']
+            self.db_connection_string = config_dict['db_connection_string']
         except Exception as e:
             print('Error occured while loading the file.\n Exception: ', str(e))
             raise e

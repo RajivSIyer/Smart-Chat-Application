@@ -4,6 +4,8 @@ from serversocket import serversocket
 from clientthread import clientthread
 from SmartChatConfig import smart_chat_config
 import logging
+from database_object import Database_Object
+import protocol as p
 
 class Server(object):
     def __init__(self):
@@ -25,6 +27,10 @@ class Server(object):
         self.logger.addHandler(fh)
         self.logger.addHandler(ch)
         self.logger.info("Logger Created")
+        #Database Connection
+        self.db_obj = Database_Object(self.logger)
+        self.logger.info("Connection String:"+cfg.db_connection_string)
+        self.db_obj.connect(cfg.db_connection_string)
         #Server Initialization & Variables
         self.client_thread_list = []
         self.users_to_client_thread = {}
@@ -72,7 +78,11 @@ def listening_thread_func():
             client_t = clientthread(serv, client_sock, addr)
             serv.socket_to_client_threads[client_sock] = client_t
             serv.client_thread_list.append(client_t)
-            client_sock.send(("You are connected from:" + str(addr[1])).encode('utf-8'))
+            response = p.response(p.RESPCODE_OK, 0, ("You are connected from:" + str(addr[1])).encode('utf-8'),'')
+            resp_to_json = response.to_Json()
+            client_sock.send(resp_to_json)
+            serv.logger.info(("New Client connected to Server:" + str(addr[1])).encode('utf-8'))
+            serv.logger.info("Sent Message:\n"+resp_to_json)
             client_t.start()
 try:
     cfg = smart_chat_config()
