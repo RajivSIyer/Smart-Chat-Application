@@ -39,13 +39,17 @@ class response(object): #server to client
         self.payload = payload
 
     def to_Json(self):
-        return json.dumps(self, indent=4, default=self.encode_Json)
+        try:
+            return json.dumps(self, indent=4, default=self.encode_Json)
+        except Exception as e:
+            print(str(e))
 
     def encode_Json(self, resp):
+        print("Response: ", type(resp))
         if self.payload != '' and self.payload != 'None':
-            return {"resp_code":self.resp_code, "req_id":self.req_id, "msg":self.msg, "payload":self.payload.encode_Json()}
+            return {"resp_code":self.resp_code, "req_id":self.req_id, "msg":json.dumps(self.msg), "payload":self.payload.encode_Json()}
         else:
-            return {"resp_code":self.resp_code, "req_id":self.req_id, "msg":self.msg, "payload":self.payload}
+            return {"resp_code":self.resp_code, "req_id":self.req_id, "msg":json.dumps(self.msg), "payload":''}
 
     @classmethod
     def from_Json(self, resp_jsonStr):
