@@ -42,7 +42,6 @@ class User(object):
     def __str__(self):
         return self.to_Json()
 
-
 if __name__ == "__main__":
     u = User(1,"GregorClaw","chokra99","rajpop@gmail.com","Rajiv","Iyer")
     print(u)
