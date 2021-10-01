@@ -6,7 +6,6 @@ from SmartChatConfig import smart_chat_config
 import logging
 from database_object import Database_Object
 import protocol as p
-
 class Server(object):
     def __init__(self):
         #Logging Setup
@@ -78,13 +77,6 @@ def listening_thread_func():
             client_t = clientthread(serv, client_sock, addr)
             serv.socket_to_client_threads[client_sock] = client_t
             serv.client_thread_list.append(client_t)
-            response = p.response(p.RESPCODE_OK, 0, ("You are connected from:" + str(addr[1])),'')
-            resp_to_json = response.to_Json()
-            print(resp_to_json)
-            print(type(resp_to_json))
-            client_sock.send(resp_to_json.encode('utf-8'))
-            serv.logger.info(("New Client connected to Server:" + str(addr[1])).encode('utf-8'))
-            serv.logger.info("Sent Message:\n"+resp_to_json)
             client_t.start()
 try:
     cfg = smart_chat_config()
