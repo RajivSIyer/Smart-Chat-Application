@@ -5,3 +5,170 @@
 2021-10-02 00:18:31,805 - 14044 - INFO - Logger Created
 2021-10-02 00:19:16,929 - 18292 - INFO - Logger Created
 2021-10-02 00:20:27,526 - 20492 - INFO - Logger Created
+2021-10-02 17:32:26,173 - 18992 - INFO - Logger Created
+2021-10-02 17:32:26,191 - 24272 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "\"You are connected from:('192.168.1.107', 64646)\"",
+    "payload": ""
+}
+2021-10-02 17:35:48,469 - 24492 - INFO - Logger Created
+2021-10-02 17:35:48,482 - 24208 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "\"You are connected from:('192.168.1.107', 64990)\"",
+    "payload": ""
+}
+2021-10-02 17:37:18,237 - 21912 - INFO - Logger Created
+2021-10-02 17:38:01,620 - 23460 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "\"You are connected from:('192.168.1.107', 51573)\"",
+    "payload": ""
+}
+2021-10-02 17:56:14,653 - 10740 - INFO - Logger Created
+2021-10-02 17:56:14,670 - 21720 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "\"You are connected from:('192.168.1.107', 53348)\"",
+    "payload": ""
+}
+2021-10-02 17:57:06,225 - 15108 - INFO - Logger Created
+2021-10-02 17:57:06,259 - 24484 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "\"You are connected from:('192.168.1.107', 53362)\"",
+    "payload": ""
+}
+2021-10-02 18:03:24,349 - 24260 - INFO - Logger Created
+2021-10-02 18:03:24,367 - 14424 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "\"You are connected from:('192.168.1.107', 64013)\"",
+    "payload": ""
+}
+2021-10-02 18:03:24,368 - 14424 - INFO - Reached Here!
+2021-10-02 18:04:04,340 - 21712 - INFO - Logger Created
+2021-10-02 18:04:04,356 - 19740 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "\"You are connected from:('192.168.1.107', 64025)\"",
+    "payload": ""
+}
+2021-10-02 18:04:04,362 - 19740 - INFO - Reached Here!
+2021-10-02 18:04:04,363 - 19740 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-02 18:04:58,076 - 21736 - INFO - Logger Created
+2021-10-02 18:04:58,087 - 21348 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "\"You are connected from:('192.168.1.107', 64043)\"",
+    "payload": ""
+}
+2021-10-02 18:04:58,088 - 21348 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-02 18:07:27,126 - 5016 - INFO - Logger Created
+2021-10-02 18:07:27,146 - 24244 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 64082)",
+    "payload": ""
+}
+2021-10-02 18:07:27,156 - 24244 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-02 19:55:09,348 - 6600 - INFO - Logger Created
+2021-10-02 19:55:09,405 - 23476 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 64994)",
+    "payload": ""
+}
+2021-10-02 19:55:09,407 - 23476 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-02 20:04:00,064 - 19500 - INFO - Logger Created
+2021-10-02 20:04:00,077 - 17684 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 62277)",
+    "payload": ""
+}
+2021-10-02 20:04:00,078 - 17684 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-02 22:40:12,349 - 19220 - INFO - Logger Created
+2021-10-02 22:40:12,472 - 11152 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 50608)",
+    "payload": ""
+}
+2021-10-02 22:40:12,474 - 11152 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-02 23:16:15,336 - 23668 - INFO - Logger Created
+2021-10-02 23:16:15,374 - 5988 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 55045)",
+    "payload": ""
+}
+2021-10-02 23:16:15,375 - 5988 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-02 23:18:54,570 - 25428 - INFO - Logger Created
+2021-10-02 23:19:06,592 - 15980 - INFO - Logger Created
+2021-10-02 23:19:13,466 - 24528 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 61379)",
+    "payload": ""
+}
+2021-10-02 23:19:16,824 - 24528 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-02 23:21:21,683 - 22020 - INFO - Logger Created
+2021-10-02 23:21:29,443 - 21700 - INFO - Logger Created
+2021-10-02 23:21:37,546 - 2872 - INFO - Logger Created
+2021-10-02 23:21:37,580 - 6248 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 61409)",
+    "payload": ""
+}
+2021-10-02 23:21:37,581 - 6248 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
