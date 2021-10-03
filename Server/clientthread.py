@@ -1,6 +1,10 @@
 import threading
 import select
 import protocol as p
+import ClientCredentials
+import User
+import Session
+import uuid
 class clientthread(threading.Thread):
     def __init__(self, Serv, socket, ip_addr):
         threading.Thread.__init__(self)
@@ -14,11 +18,37 @@ class clientthread(threading.Thread):
         client_request = p.request.from_Json(json_data)
 
         if str(client_request.cmd).upper() == p.CMD_CONN:
-            response = p.response(p.CMD_CONN, p.RESPCODE_OK, client_request.req_id, ("You are connected from:" + str(self.ip_addr)), '')
+            response = p.response(p.CMD_CONN, p.RESPCODE_OK, client_request.req_id, "You are connected from:" + str(self.ip_addr), '')
             resp_to_json = response.to_Json()
             self.send(resp_to_json)
             self.serv.logger.info("Sent Message:\n"+resp_to_json)
 
+        elif str(client_request.cmd) == p.CMD_LOGIN:
+            clientcreds = ClientCredentials.from_Json(client_request.payload)
+            self.handleloginrequest(client_request, clientcreds)
+
+    def handleloginrequest(self, client_request, clientcreds: ClientCredentials):
+        self.serv.logger.info("Username: "+clientcreds.username+"\nPassword: "+clientcreds.passwd)
+        try:
+            u = self.serv.db_obj.query_oneUser_byname(clientcreds.username)
+            if u == None:
+                self.serv.logger.info("Username "+clientcreds.username+" does not exist in database!")
+                response = p.response(p.CMD_LOGIN, p.RESPCODE_LOGIN_INVALIDUSER, client_request.req_id, "User Not Found: " + str(clientcreds.username), '')
+            else:
+                if u.Passwd != clientcreds.passwd:
+                    self.serv.logger.info("Incorrect Password entered by: "+clientcreds.username)
+                    response = p.response(p.CMD_LOGIN, p.RESPCODE_LOGIN_INVALIDPASSWD, client_request.req_id, "Invalid Password", '')
+                else:
+                    sesh = Session(uuid.uuid1())
+                    self.serv.logger.info("Successfully Logged In!")
+                    response = p.response(p.CMD_LOGIN, p.RESPCODE_OK, client_request.req_id, "Successfully Logged In!", sesh.to_Json())
+                    
+        except Exception as e:
+            self.serv.logger.info("Database Error!",str(e))
+            response = p.response(p.CMD_LOGIN, p.RESPCODE_INTERNAL_SERVER_ERROR, client_request.req_id, 'Database Error!', '')
+        response_JsonStr = response.to_Json()
+        self.serv.logger.info("Login Response Sent:\n"+response_JsonStr)
+        self.send(response_JsonStr)
         '''
         if data.startswith("#"):
             self.name = data[1:].lower()
