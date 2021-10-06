@@ -172,3 +172,1132 @@ Request Id: 1
 2021-10-02 23:21:37,581 - 6248 - INFO - Received permit response to connect:
 CONNECT
 Request Id: 1
+2021-10-04 21:40:57,599 - 19208 - INFO - Logger Created
+2021-10-04 21:40:57,631 - 22680 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 54043)",
+    "payload": ""
+}
+2021-10-04 21:40:57,632 - 22680 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-04 21:43:50,948 - 29036 - INFO - Logger Created
+2021-10-04 21:43:55,336 - 21764 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 54354)",
+    "payload": ""
+}
+2021-10-04 21:43:59,680 - 21764 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-04 21:47:19,470 - 28308 - INFO - Logger Created
+2021-10-04 21:47:27,375 - 27660 - INFO - Logger Created
+2021-10-04 21:47:27,409 - 28792 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 49950)",
+    "payload": ""
+}
+2021-10-04 21:47:27,410 - 28792 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-04 21:47:32,601 - 27660 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-04 21:47:32,602 - 27660 - INFO - Logging In...
+2021-10-04 21:50:24,623 - 27660 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 3,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-04 21:50:24,623 - 27660 - INFO - Logging In...
+2021-10-04 21:50:47,102 - 20656 - INFO - Logger Created
+2021-10-04 21:50:47,153 - 5516 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 54521)",
+    "payload": ""
+}
+2021-10-04 21:50:47,154 - 5516 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-04 21:50:55,625 - 20656 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-04 21:50:55,625 - 20656 - INFO - Logging In...
+2021-10-04 21:58:58,769 - 22520 - INFO - Logger Created
+2021-10-04 21:59:20,389 - 25296 - INFO - Logger Created
+2021-10-04 21:59:20,410 - 4356 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 60009)",
+    "payload": ""
+}
+2021-10-04 21:59:20,410 - 4356 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-04 21:59:26,430 - 25296 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-04 21:59:26,430 - 25296 - INFO - Logging In...
+2021-10-04 22:07:32,911 - 4356 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 500,
+    "req_id": 2,
+    "msg": "Database Error!",
+    "payload": ""
+}
+2021-10-04 22:07:50,557 - 4356 - INFO - Database Error!
+2021-10-04 22:08:39,006 - 25296 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 3,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-04 22:08:39,007 - 25296 - INFO - Logging In...
+2021-10-04 22:08:48,462 - 25296 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 4,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-04 22:08:48,462 - 25296 - INFO - Logging In...
+2021-10-04 22:20:15,755 - 14252 - INFO - Logger Created
+2021-10-04 22:20:15,794 - 26740 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 50576)",
+    "payload": ""
+}
+2021-10-04 22:20:15,795 - 26740 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-04 22:20:22,869 - 14252 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-04 22:20:22,869 - 14252 - INFO - Logging In...
+2021-10-04 22:21:42,572 - 25568 - INFO - Logger Created
+2021-10-04 22:21:42,607 - 28972 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 50599)",
+    "payload": ""
+}
+2021-10-04 22:21:42,608 - 28972 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-04 22:21:47,652 - 25568 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"Iyer\"\n}"
+}
+2021-10-04 22:21:47,652 - 25568 - INFO - Logging In...
+2021-10-04 22:21:47,659 - 28972 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 302,
+    "req_id": 2,
+    "msg": "Invalid Password",
+    "payload": ""
+}
+2021-10-04 22:22:09,175 - 28972 - INFO - Invalid Password
+2021-10-04 22:22:23,254 - 25568 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 3,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-04 22:22:23,255 - 25568 - INFO - Logging In...
+2021-10-04 22:22:23,260 - 28972 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 200,
+    "req_id": 3,
+    "msg": "Successfully Logged In!",
+    "payload": ""
+}
+2021-10-04 22:24:41,192 - 21448 - INFO - Logger Created
+2021-10-04 22:24:41,223 - 25500 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 65004)",
+    "payload": ""
+}
+2021-10-04 22:24:41,224 - 25500 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-04 22:24:46,957 - 21448 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-04 22:24:46,957 - 21448 - INFO - Logging In...
+2021-10-04 22:24:46,984 - 25500 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 500,
+    "req_id": 2,
+    "msg": "Database Error!",
+    "payload": ""
+}
+2021-10-04 22:24:58,856 - 25500 - INFO - Database Error!
+2021-10-04 22:26:35,246 - 27048 - INFO - Logger Created
+2021-10-04 22:26:35,294 - 21348 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 63691)",
+    "payload": ""
+}
+2021-10-04 22:26:35,295 - 21348 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-04 22:27:00,549 - 27048 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-04 22:27:00,549 - 27048 - INFO - Logging In...
+2021-10-04 22:27:00,570 - 21348 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 500,
+    "req_id": 2,
+    "msg": "Database Error!",
+    "payload": ""
+}
+2021-10-04 22:27:09,879 - 21348 - INFO - Database Error!
+2021-10-04 22:27:58,536 - 28844 - INFO - Logger Created
+2021-10-04 22:27:58,554 - 28512 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 63719)",
+    "payload": ""
+}
+2021-10-04 22:27:58,555 - 28512 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-04 22:28:10,516 - 28844 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-04 22:28:10,517 - 28844 - INFO - Logging In...
+2021-10-04 22:34:03,137 - 22284 - INFO - Logger Created
+2021-10-04 22:34:03,187 - 2944 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 52333)",
+    "payload": ""
+}
+2021-10-04 22:34:03,188 - 2944 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-04 22:34:11,204 - 22284 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-04 22:34:11,204 - 22284 - INFO - Logging In...
+2021-10-04 22:34:27,998 - 2944 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 200,
+    "req_id": 2,
+    "msg": "Successfully Logged In!",
+    "payload": "{\n    \"id\": \"18418881-2535-11ec-9855-001a7dda7115\"\n}"
+}
+2021-10-04 22:35:37,501 - 26060 - INFO - Logger Created
+2021-10-04 22:35:42,820 - 26060 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-04 22:35:42,820 - 26060 - INFO - Logging In...
+2021-10-04 22:37:01,936 - 27788 - INFO - Logger Created
+2021-10-04 22:37:08,693 - 27788 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-04 22:37:08,693 - 27788 - INFO - Logging In...
+2021-10-04 22:37:45,312 - 25868 - INFO - Logger Created
+2021-10-04 22:37:49,813 - 25868 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-04 22:37:49,813 - 25868 - INFO - Logging In...
+2021-10-04 22:39:04,322 - 20424 - INFO - Logger Created
+2021-10-04 22:40:44,286 - 20424 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-04 22:40:54,054 - 20424 - INFO - Logging In...
+2021-10-05 19:06:21,023 - 16744 - INFO - Logger Created
+2021-10-05 19:06:32,489 - 29612 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 61758)",
+    "payload": ""
+}
+2021-10-05 19:06:39,725 - 29612 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-05 19:07:21,456 - 16744 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-05 19:08:20,875 - 29612 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 200,
+    "req_id": 2,
+    "msg": "Successfully Logged In!",
+    "payload": "{\n    \"id\": \"5f0cc8be-25e1-11ec-8eb0-001a7dda7115\"\n}"
+}
+2021-10-05 19:08:20,875 - 16744 - INFO - Logging In...
+2021-10-05 19:08:34,052 - 16744 - WARNING - 
+Server TimeOut Occurred!Retrying Login...
+2021-10-05 19:08:40,702 - 29612 - INFO - Successfully Logged In!
+2021-10-05 19:09:11,206 - 16744 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 3,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-05 19:09:11,207 - 16744 - INFO - Logging In...
+2021-10-05 19:09:14,673 - 29612 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 200,
+    "req_id": 3,
+    "msg": "Successfully Logged In!",
+    "payload": "{\n    \"id\": \"9f4d0317-25e1-11ec-9ac8-001a7dda7115\"\n}"
+}
+2021-10-05 19:09:18,596 - 29612 - INFO - Successfully Logged In!
+2021-10-05 19:10:24,133 - 29984 - INFO - Logger Created
+2021-10-05 19:10:24,175 - 16912 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 61818)",
+    "payload": ""
+}
+2021-10-05 19:10:24,176 - 16912 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-05 19:10:35,723 - 29984 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra99\"\n}"
+}
+2021-10-05 19:10:35,724 - 29984 - INFO - Logging In...
+2021-10-05 19:10:35,736 - 16912 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 302,
+    "req_id": 2,
+    "msg": "Invalid Password",
+    "payload": ""
+}
+2021-10-05 19:10:35,736 - 16912 - INFO - Invalid Password
+2021-10-05 19:10:50,531 - 29984 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 3,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra99\"\n}"
+}
+2021-10-05 19:10:50,532 - 29984 - INFO - Logging In...
+2021-10-05 19:10:50,536 - 16912 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 302,
+    "req_id": 3,
+    "msg": "Invalid Password",
+    "payload": ""
+}
+2021-10-05 19:10:50,536 - 16912 - INFO - Invalid Password
+2021-10-05 19:11:19,030 - 24728 - INFO - Logger Created
+2021-10-05 19:11:19,053 - 29240 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 61829)",
+    "payload": ""
+}
+2021-10-05 19:11:19,054 - 29240 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-05 19:13:18,386 - 15768 - INFO - Logger Created
+2021-10-05 19:13:18,423 - 24912 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 63432)",
+    "payload": ""
+}
+2021-10-05 19:13:18,424 - 24912 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-05 19:13:24,530 - 15768 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra99\"\n}"
+}
+2021-10-05 19:13:24,530 - 15768 - INFO - Logging In...
+2021-10-05 19:13:24,537 - 24912 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 302,
+    "req_id": 2,
+    "msg": "Invalid Password",
+    "payload": ""
+}
+2021-10-05 19:13:24,537 - 24912 - INFO - Invalid Password
+2021-10-05 19:33:28,852 - 24780 - INFO - Logger Created
+2021-10-05 19:33:28,882 - 27792 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 52202)",
+    "payload": ""
+}
+2021-10-05 19:33:28,882 - 27792 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-05 19:33:37,209 - 24780 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-05 19:33:37,210 - 24780 - INFO - Logging In...
+2021-10-05 19:33:37,218 - 27792 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 200,
+    "req_id": 2,
+    "msg": "Successfully Logged In!",
+    "payload": "{\n    \"id\": \"091b397e-25e5-11ec-b0ac-001a7dda7115\"\n}"
+}
+2021-10-05 19:33:37,219 - 27792 - INFO - Successfully Logged In!
+2021-10-05 19:33:47,186 - 24688 - INFO - Logger Created
+2021-10-05 19:33:47,213 - 18944 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 52210)",
+    "payload": ""
+}
+2021-10-05 19:33:47,213 - 18944 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-05 19:34:00,538 - 24688 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"deva\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-05 19:34:00,539 - 24688 - INFO - Logging In...
+2021-10-05 19:34:00,545 - 18944 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 301,
+    "req_id": 2,
+    "msg": "User Not Found: deva",
+    "payload": ""
+}
+2021-10-05 19:34:00,545 - 18944 - INFO - User Not Found: deva
+2021-10-05 19:42:46,963 - 9620 - INFO - Logger Created
+2021-10-05 19:43:16,973 - 15660 - INFO - Logger Created
+2021-10-05 19:43:17,025 - 27352 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 56183)",
+    "payload": ""
+}
+2021-10-05 19:43:17,026 - 27352 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-05 19:43:24,479 - 15660 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-05 19:43:24,479 - 15660 - INFO - Logging In...
+2021-10-05 19:43:24,492 - 27352 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 200,
+    "req_id": 2,
+    "msg": "Successfully Logged In!",
+    "payload": "{\n    \"id\": \"67261bdc-25e6-11ec-a6c2-001a7dda7115\"\n}"
+}
+2021-10-05 19:43:24,492 - 27352 - INFO - Successfully Logged In!
+2021-10-06 20:54:18,243 - 29940 - INFO - Logger Created
+2021-10-06 20:54:18,281 - 33252 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 52875)",
+    "payload": ""
+}
+2021-10-06 20:54:18,282 - 33252 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-06 20:54:25,825 - 29940 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra99\"\n}"
+}
+2021-10-06 20:54:25,825 - 29940 - INFO - Logging In...
+2021-10-06 20:54:25,837 - 33252 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 302,
+    "req_id": 2,
+    "msg": "Invalid Password",
+    "payload": ""
+}
+2021-10-06 20:54:25,837 - 33252 - INFO - Invalid Password
+2021-10-06 20:54:31,473 - 29940 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 3,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra101\"\n}"
+}
+2021-10-06 20:54:31,474 - 29940 - INFO - Logging In...
+2021-10-06 20:54:31,482 - 33252 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 302,
+    "req_id": 3,
+    "msg": "Invalid Password",
+    "payload": ""
+}
+2021-10-06 20:54:31,483 - 33252 - INFO - Invalid Password
+2021-10-06 20:54:34,264 - 29940 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 4,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-06 20:54:34,265 - 29940 - INFO - Logging In...
+2021-10-06 20:54:34,275 - 33252 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 200,
+    "req_id": 4,
+    "msg": "Successfully Logged In!",
+    "payload": "{\n    \"id\": \"828d23e4-26b9-11ec-b550-001a7dda7115\"\n}"
+}
+2021-10-06 20:54:34,275 - 33252 - INFO - Successfully Logged In!
+2021-10-06 20:54:42,515 - 8484 - INFO - Logger Created
+2021-10-06 20:54:42,545 - 6360 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 52883)",
+    "payload": ""
+}
+2021-10-06 20:54:42,547 - 6360 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-06 20:54:52,056 - 8484 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"rajiv\",\n    \"passwd\": \"chokra99\"\n}"
+}
+2021-10-06 20:54:52,057 - 8484 - INFO - Logging In...
+2021-10-06 20:54:52,063 - 6360 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 302,
+    "req_id": 2,
+    "msg": "Invalid Password",
+    "payload": ""
+}
+2021-10-06 20:54:52,063 - 6360 - INFO - Invalid Password
+2021-10-06 20:55:00,147 - 25572 - INFO - Logger Created
+2021-10-06 20:55:00,167 - 11524 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 52894)",
+    "payload": ""
+}
+2021-10-06 20:55:00,167 - 11524 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-06 20:55:07,681 - 25572 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"deva\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-06 20:55:07,681 - 25572 - INFO - Logging In...
+2021-10-06 20:55:07,693 - 11524 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 301,
+    "req_id": 2,
+    "msg": "User Not Found: deva",
+    "payload": ""
+}
+2021-10-06 20:55:07,693 - 11524 - INFO - User Not Found: deva
+2021-10-06 20:55:20,490 - 25572 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 3,
+    "payload": "{\n    \"username\": \"Adi\",\n    \"passwd\": \"tavernist\"\n}"
+}
+2021-10-06 20:55:20,491 - 25572 - INFO - Logging In...
+2021-10-06 20:55:20,497 - 11524 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 301,
+    "req_id": 3,
+    "msg": "User Not Found: Adi",
+    "payload": ""
+}
+2021-10-06 20:55:20,497 - 11524 - INFO - User Not Found: Adi
+2021-10-06 20:55:56,578 - 25572 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 4,
+    "payload": "{\n    \"username\": \"dev\",\n    \"passwd\": \"Iyer\"\n}"
+}
+2021-10-06 20:55:56,578 - 25572 - INFO - Logging In...
+2021-10-06 20:55:56,585 - 11524 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 200,
+    "req_id": 4,
+    "msg": "Successfully Logged In!",
+    "payload": "{\n    \"id\": \"b39c7e34-26b9-11ec-a63b-001a7dda7115\"\n}"
+}
+2021-10-06 20:55:56,585 - 11524 - INFO - Successfully Logged In!
+2021-10-06 22:22:53,690 - 15200 - INFO - Logger Created
+2021-10-06 22:22:53,840 - 23600 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 64346)",
+    "payload": ""
+}
+2021-10-06 22:22:53,841 - 23600 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-06 22:23:05,451 - 15200 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-06 22:23:05,452 - 15200 - INFO - Logging In...
+2021-10-06 22:23:05,470 - 23600 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 200,
+    "req_id": 2,
+    "msg": "Successfully Logged In!",
+    "payload": "{\n    \"id\": \"e0450327-26c5-11ec-82b6-001a7dda7115\"\n}"
+}
+2021-10-06 22:23:05,470 - 23600 - INFO - Successfully Logged In!
+2021-10-06 22:23:45,021 - 24132 - INFO - Logger Created
+2021-10-06 22:23:45,072 - 9816 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 64362)",
+    "payload": ""
+}
+2021-10-06 22:23:45,073 - 9816 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-06 22:28:28,741 - 24124 - INFO - Logger Created
+2021-10-06 22:28:28,764 - 25692 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 53590)",
+    "payload": ""
+}
+2021-10-06 22:28:28,765 - 25692 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-06 22:28:34,890 - 24124 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-06 22:28:34,890 - 24124 - INFO - Logging In...
+2021-10-06 22:28:34,905 - 25692 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 200,
+    "req_id": 2,
+    "msg": "Successfully Logged In!",
+    "payload": "{\n    \"id\": \"a4a10341-26c6-11ec-b640-001a7dda7115\"\n}"
+}
+2021-10-06 22:28:34,906 - 25692 - INFO - Successfully Logged In!
+2021-10-06 22:33:19,124 - 29512 - INFO - Logger Created
+2021-10-06 22:33:19,179 - 14956 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 59577)",
+    "payload": ""
+}
+2021-10-06 22:33:19,180 - 14956 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-06 22:33:23,773 - 29512 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-06 22:33:23,776 - 29512 - INFO - Logging In...
+2021-10-06 22:33:23,831 - 14956 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 200,
+    "req_id": 2,
+    "msg": "Successfully Logged In!",
+    "payload": "{\n    \"id\": \"50d63a51-26c7-11ec-80b8-001a7dda7115\"\n}"
+}
+2021-10-06 22:33:23,831 - 14956 - INFO - Successfully Logged In!
+2021-10-06 22:34:01,867 - 11516 - INFO - Logger Created
+2021-10-06 22:34:01,893 - 26548 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 56061)",
+    "payload": ""
+}
+2021-10-06 22:34:01,893 - 26548 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-06 22:34:09,203 - 11516 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-06 22:34:09,203 - 11516 - INFO - Logging In...
+2021-10-06 22:34:09,220 - 26548 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 200,
+    "req_id": 2,
+    "msg": "Successfully Logged In!",
+    "payload": "{\n    \"id\": \"6be4f054-26c7-11ec-9683-001a7dda7115\"\n}"
+}
+2021-10-06 22:34:09,221 - 26548 - INFO - Successfully Logged In!
+2021-10-06 22:43:40,153 - 31792 - INFO - Logger Created
+2021-10-06 22:43:40,201 - 18672 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 56353)",
+    "payload": ""
+}
+2021-10-06 22:43:40,202 - 18672 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-06 22:43:46,124 - 31792 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-06 22:43:46,125 - 31792 - INFO - Logging In...
+2021-10-06 22:43:46,138 - 18672 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 200,
+    "req_id": 2,
+    "msg": "Successfully Logged In!",
+    "payload": "{\n    \"id\": \"c3c378aa-26c8-11ec-b6bb-001a7dda7115\"\n}"
+}
+2021-10-06 22:43:46,138 - 18672 - INFO - Successfully Logged In!
+2021-10-06 22:45:32,927 - 23304 - INFO - Logger Created
+2021-10-06 22:45:57,130 - 34152 - INFO - Logger Created
+2021-10-06 22:46:34,600 - 15880 - INFO - Logger Created
+2021-10-06 22:46:34,647 - 33120 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 58640)",
+    "payload": ""
+}
+2021-10-06 22:46:34,647 - 33120 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-06 22:46:41,836 - 15880 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-06 22:46:41,837 - 15880 - INFO - Logging In...
+2021-10-06 22:46:41,863 - 33120 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 200,
+    "req_id": 2,
+    "msg": "Successfully Logged In!",
+    "payload": "{\n    \"id\": \"2c7ffc87-26c9-11ec-8da6-001a7dda7115\"\n}"
+}
+2021-10-06 22:46:41,864 - 33120 - INFO - Successfully Logged In!
+2021-10-06 22:50:27,594 - 17844 - INFO - Logger Created
+2021-10-06 22:50:27,683 - 34796 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 58707)",
+    "payload": ""
+}
+2021-10-06 22:50:27,684 - 34796 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-06 22:50:32,913 - 17844 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-06 22:50:32,913 - 17844 - INFO - Logging In...
+2021-10-06 22:50:42,926 - 17844 - WARNING - 
+Server TimeOut Occurred!Retrying Login...
+2021-10-06 22:55:59,199 - 32468 - INFO - Logger Created
+2021-10-06 22:55:59,220 - 26548 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 59345)",
+    "payload": ""
+}
+2021-10-06 22:55:59,221 - 26548 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-06 22:56:04,380 - 32468 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-06 22:56:04,382 - 32468 - INFO - Logging In...
+2021-10-06 22:56:14,395 - 32468 - WARNING - 
+Server TimeOut Occurred!Retrying Login...
+2021-10-06 22:56:43,708 - 26548 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 200,
+    "req_id": 2,
+    "msg": "Successfully Logged In!",
+    "payload": "{\n    \"id\": \"2C7FFC87-26C9-11EC-8DA6-001A7DDA7115\"\n}"
+}
+2021-10-06 22:56:43,708 - 26548 - INFO - Successfully Logged In!
+2021-10-06 22:59:54,365 - 33056 - INFO - Logger Created
+2021-10-06 22:59:54,414 - 30840 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 57419)",
+    "payload": ""
+}
+2021-10-06 22:59:54,415 - 30840 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-06 23:00:00,448 - 33056 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-06 23:00:00,449 - 33056 - INFO - Logging In...
+2021-10-06 23:00:04,546 - 30840 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 200,
+    "req_id": 2,
+    "msg": "Successfully Logged In!",
+    "payload": "{\n    \"id\": \"0af0a4b3-26cb-11ec-b5dd-001a7dda7115\"\n}"
+}
+2021-10-06 23:00:04,546 - 30840 - INFO - Successfully Logged In!
+2021-10-06 23:01:00,591 - 21568 - INFO - Logger Created
+2021-10-06 23:01:00,620 - 31312 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 57430)",
+    "payload": ""
+}
+2021-10-06 23:01:00,621 - 31312 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-06 23:01:07,088 - 21568 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-06 23:01:07,088 - 21568 - INFO - Logging In...
+2021-10-06 23:01:07,097 - 31312 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 200,
+    "req_id": 2,
+    "msg": "Successfully Logged In!",
+    "payload": "{\n    \"id\": \"0AF0A4B3-26CB-11EC-B5DD-001A7DDA7115\"\n}"
+}
+2021-10-06 23:01:07,098 - 31312 - INFO - Successfully Logged In!
+2021-10-06 23:03:45,451 - 33280 - INFO - Logger Created
+2021-10-06 23:03:45,536 - 7796 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 57486)",
+    "payload": ""
+}
+2021-10-06 23:03:45,537 - 7796 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-06 23:03:51,201 - 33280 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-06 23:03:51,202 - 33280 - INFO - Logging In...
+2021-10-06 23:03:51,216 - 7796 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 200,
+    "req_id": 2,
+    "msg": "Successfully Logged In!",
+    "payload": "{\n    \"id\": \"920bcc84-26cb-11ec-ae09-001a7dda7115\"\n}"
+}
+2021-10-06 23:03:51,217 - 7796 - INFO - Successfully Logged In!
+2021-10-06 23:32:48,896 - 23020 - INFO - Logger Created
+2021-10-06 23:32:48,916 - 34700 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 53542)",
+    "payload": ""
+}
+2021-10-06 23:32:48,917 - 34700 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-06 23:32:54,255 - 23020 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-06 23:32:54,255 - 23020 - INFO - Logging In...
+2021-10-06 23:32:54,271 - 34700 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 200,
+    "req_id": 2,
+    "msg": "Successfully Logged In!",
+    "payload": "{\n    \"id\": \"920BCC84-26CB-11EC-AE09-001A7DDA7115\"\n}"
+}
+2021-10-06 23:32:54,271 - 34700 - INFO - Successfully Logged In!
+2021-10-06 23:35:53,892 - 9060 - INFO - Logger Created
+2021-10-06 23:35:53,937 - 35488 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 53568)",
+    "payload": ""
+}
+2021-10-06 23:35:53,937 - 35488 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-06 23:35:58,150 - 9060 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-06 23:35:58,150 - 9060 - INFO - Logging In...
+2021-10-06 23:35:58,161 - 35488 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 200,
+    "req_id": 2,
+    "msg": "Successfully Logged In!",
+    "payload": "{\n    \"id\": \"0E98661B-26D0-11EC-B1BC-001A7DDA7115\"\n}"
+}
+2021-10-06 23:35:58,161 - 35488 - INFO - Successfully Logged In!
+2021-10-06 23:38:10,589 - 31244 - INFO - Logger Created
+2021-10-06 23:38:10,614 - 34884 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 58657)",
+    "payload": ""
+}
+2021-10-06 23:38:10,615 - 34884 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-06 23:38:16,166 - 31244 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Rajiv\",\n    \"passwd\": \"chokra\"\n}"
+}
+2021-10-06 23:38:16,166 - 31244 - INFO - Logging In...
+2021-10-06 23:38:16,175 - 34884 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 200,
+    "req_id": 2,
+    "msg": "Successfully Logged In!",
+    "payload": "{\n    \"id\": \"0E98661B-26D0-11EC-B1BC-001A7DDA7115\"\n}"
+}
+2021-10-06 23:38:16,176 - 34884 - INFO - Successfully Logged In!
+2021-10-06 23:40:30,767 - 32364 - INFO - Logger Created
+2021-10-06 23:40:30,779 - 11532 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 58676)",
+    "payload": ""
+}
+2021-10-06 23:40:30,780 - 11532 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-06 23:40:42,476 - 32364 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Dev\",\n    \"passwd\": \"Iyer\"\n}"
+}
+2021-10-06 23:40:42,477 - 32364 - INFO - Logging In...
+2021-10-06 23:40:42,492 - 11532 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 200,
+    "req_id": 2,
+    "msg": "Successfully Logged In!",
+    "payload": "{\n    \"id\": \"B8113F54-26D0-11EC-891E-001A7DDA7115\"\n}"
+}
+2021-10-06 23:40:42,492 - 11532 - INFO - Successfully Logged In!
+2021-10-06 23:41:13,420 - 24336 - INFO - Logger Created
+2021-10-06 23:41:13,429 - 35200 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "CONNECT",
+    "resp_code": 200,
+    "req_id": 1,
+    "msg": "You are connected from:('192.168.1.107', 57887)",
+    "payload": ""
+}
+2021-10-06 23:41:13,430 - 35200 - INFO - Received permit response to connect:
+CONNECT
+Request Id: 1
+2021-10-06 23:41:18,445 - 24336 - INFO - Sending Login request to Server:
+{
+    "cmd": "LOGIN",
+    "req_id": 2,
+    "payload": "{\n    \"username\": \"Dev\",\n    \"passwd\": \"Iyer\"\n}"
+}
+2021-10-06 23:41:18,446 - 24336 - INFO - Logging In...
+2021-10-06 23:41:18,453 - 35200 - INFO - Recieved Server Raw Message:
+{
+    "cmd": "LOGIN",
+    "resp_code": 200,
+    "req_id": 2,
+    "msg": "Successfully Logged In!",
+    "payload": "{\n    \"id\": \"B8113F54-26D0-11EC-891E-001A7DDA7115\"\n}"
+}
+2021-10-06 23:41:18,453 - 35200 - INFO - Successfully Logged In!

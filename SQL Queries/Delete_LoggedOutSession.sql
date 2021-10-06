@@ -1,0 +1,1 @@
+DELETE FROM dbo.SessionLog WHERE SessionID = '67261bdc-25e6-11ec-a6c2-001a7dda7111';

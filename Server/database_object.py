@@ -1,7 +1,9 @@
 import pyodbc
 import logging
+from Session import Session, ServerSession
 from User import User
-
+from datetime import datetime
+from dateutil.relativedelta import relativedelta
 class Database_Object(object):
     def __init__(self, logger):
         self.logger = logger
@@ -13,6 +15,8 @@ class Database_Object(object):
         except Exception as e:
             self.logger.critical("Could not establish connection! ", str(e))
             raise e
+
+#Users Table Access Methods Start
 
     def add_User(self, user):
         try:
@@ -71,6 +75,115 @@ class Database_Object(object):
             return True
         except Exception as e:
             self.logger.error("Error occured while trying to update user! " + str(user) + "Exception:\n" + str(e))
+        return False
+#Users Table Access Methods End
+
+#Session Table Access Methods Start
+
+    def insert_Session(self, SessionID, UID):
+        try:
+            cursor = self.connection.cursor()
+            Start = datetime.utcnow()
+            Expire = Start + relativedelta(minutes=30)
+            query = '''INSERT INTO SessionLog (SessionID, UID, Start, Expire) VALUES (?,?,?,?);'''
+            tuple_data = (SessionID, UID, Start, Expire)
+            cursor.execute(query, tuple_data)
+            self.connection.commit()
+            cursor.close()
+            return True
+        except Exception as e:
+            self.logger.error("Error occured while trying to ADD a Session! " + str(SessionID) + "Exception:\n" + str(e))
+        return False
+
+    def update_Session(self, SessionID):
+        try:
+            cursor = self.connection.cursor()
+            Start = datetime.utcnow()
+            Expire = Start + relativedelta(minutes=30)
+            query = '''UPDATE SessionLog SET Start = (?), Expire = (?) WHERE SessionID = (?);'''
+            tuple_data = (Start, Expire, SessionID)
+            cursor.execute(query, tuple_data)
+            self.connection.commit()
+            cursor.close()
+            return True
+        except Exception as e:
+            self.logger.error("Error occured while trying to UPDATE an existing Session! " + str(SessionID) + "Exception:\n" + str(e))
+        return False
+
+    def getSession_byUID(self, UID):
+        try:
+            sesh = None
+            cursor = self.connection.cursor()
+            query = '''SELECT SessionID, UID, Start, Expire FROM SessionLog WHERE UID = (?)'''
+            tuple_data = (UID)
+            cursor.execute(query, tuple_data)
+            results = list(cursor)
+            if len(results) > 0:
+                row = results[0]
+                sesh = ServerSession(row[0], row[1], row[2], row[3])
+            cursor.close()
+        except Exception as e:
+            self.logger.error("Error occured while trying to GET a Session! " + str(UID) + "Exception:\n" + str(e))
+        return sesh
+
+    def getSession_byUIDExpire(self, UID):
+        try:
+            sesh = None
+            cursor = self.connection.cursor()
+            Start = datetime.utcnow()
+            query = '''SELECT SessionID, UID, Start, Expire FROM SessionLog WHERE UID = (?) AND Expire > (?)'''
+            tuple_data = (UID, Start)
+            cursor.execute(query, tuple_data)
+            results = list(cursor)
+            if len(results) > 0:
+                row = results[0]
+                sesh = ServerSession(row[0], row[1], row[2], row[3])
+            cursor.close()
+        except Exception as e:
+            self.logger.error("Error occured while trying to GET a Session! " + str(UID) + "Exception:\n" + str(e))
+        return sesh
+
+    def getSession_bySessionID(self, SessionID):
+        try:
+            sesh = None
+            cursor = self.connection.cursor()
+            query = '''SELECT SessionID, UID, Start, Expire FROM SessionLog WHERE SessionID = (?)'''
+            tuple_data = (SessionID)
+            cursor.execute(query, tuple_data)
+            results = list(cursor)
+            if len(results) > 0:
+                row = results[0]
+                sesh = ServerSession(row[0], row[1], row[2], row[3])
+            cursor.close()
+        except Exception as e:
+            self.logger.error("Error occured while trying to GET a Session! " + str(SessionID) + "Exception:\n" + str(e))
+        return sesh
+
+    def deleteSession_bySessionID(self, SessionID):
+        try:
+            cursor = self.connection.cursor()
+            query = '''DELETE FROM SessionLog WHERE SessionID = (?);'''
+            tuple_data = (SessionID)
+            cursor.execute(query, tuple_data)
+            self.connection.commit()
+            cursor.close()
+            return True
+        except Exception as e:
+            self.logger.error("Error occured while trying to DELETE Session(s)! " + str(SessionID) + "Exception:\n" + str(e))
+        return False
+
+    def deleteSession_byExpire(self):
+        try:
+            cursor = self.connection.cursor()
+            Start = datetime.utcnow()
+            query = '''DELETE FROM SessionLog WHERE Expire < (?);'''
+            tuple_data = (Start)
+            cursor.execute(query, tuple_data)
+            self.connection.commit()
+            cursor.close()
+            return True
+        except Exception as e:
+            self.logger.error("Error occured while trying to DELETE Session(s)! " + str(Start) + "Exception:\n" + str(e))
         return False
 
 if __name__ == "__main__":

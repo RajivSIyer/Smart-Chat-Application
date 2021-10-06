@@ -1,0 +1,1 @@
+SELECT SessionID, UID, Start, Expire FROM dbo.SessionLog WHERE UID = 1 AND Expire > GETUTCDATE()

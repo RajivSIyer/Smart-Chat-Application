@@ -47,7 +47,7 @@ class response(object): #server to client
     def encode_Json(self, resp):
         print("Response: ", type(resp))
         if self.payload != '' and self.payload != 'None':
-            return {"cmd":self.cmd, "resp_code":self.resp_code, "req_id":self.req_id, "msg":self.msg, "payload":self.payload.encode_Json()}
+            return {"cmd":self.cmd, "resp_code":self.resp_code, "req_id":self.req_id, "msg":self.msg, "payload":self.payload}
         else:
             return {"cmd":self.cmd, "resp_code":self.resp_code, "req_id":self.req_id, "msg":self.msg, "payload":''}
 
