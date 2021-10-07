@@ -5,10 +5,10 @@ for driver in pyodbc.drivers():
     print(driver)
     
 db_conn_str = "DRIVER={ODBC Driver 17 for SQL Server};\
-    SERVER=127.0.0.1;\
+    SERVER=BALROG;\
     DATABASE=SmartChat;\
     UID=sa;\
-    PWD=Welcome99;\
+    PWD=Technobase2021;\
     Trusted_Connection=no;"
     
 try:
