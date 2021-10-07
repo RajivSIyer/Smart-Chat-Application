@@ -1,0 +1,8 @@
+~$Users.xlsx
+SmartChat.log
+SmartChatClient.log
+.DS_Store
+baretailpro.exe
+*.exe
+__pycache__
+common/__pycache__
